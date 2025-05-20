@@ -1,0 +1,7 @@
+{
+  "name": "@abhijit/react",
+  "packageManager": "yarn@4.9.1",
+  "dependencies": {
+    "@abhijit/foundation": "workspace:^"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@abhijit/storybook",
+  "packageManager": "yarn@4.9.1",
+  "private": true,
+  "dependencies": {
+    "@abhijit/foundation": "workspace:^",
+    "@abhijit/react": "workspace:^"
+  }
+}
