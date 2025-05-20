@@ -43,7 +43,8 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["root-workspace-0b6124", "workspace:."]\
+          ["root-workspace-0b6124", "workspace:."],\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -52,7 +53,8 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/foundation", {\
         "packageLocation": "./packages/foundation/",\
         "packageDependencies": [\
-          ["@abhijit/foundation", "workspace:packages/foundation"]\
+          ["@abhijit/foundation", "workspace:packages/foundation"],\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -62,7 +64,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/react/",\
         "packageDependencies": [\
           ["@abhijit/foundation", "workspace:packages/foundation"],\
-          ["@abhijit/react", "workspace:packages/react"]\
+          ["@abhijit/react", "workspace:packages/react"],\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -73,7 +76,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@abhijit/foundation", "workspace:packages/foundation"],\
           ["@abhijit/react", "workspace:packages/react"],\
-          ["@abhijit/storybook", "workspace:packages/storybook"]\
+          ["@abhijit/storybook", "workspace:packages/storybook"],\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -82,9 +86,19 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["root-workspace-0b6124", "workspace:."]\
+          ["root-workspace-0b6124", "workspace:."],\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["typescript", [\
+      ["patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5", {\
+        "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/typescript-patch-f64146f279-10c0.zip/node_modules/typescript/",\
+        "packageDependencies": [\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]]\
   ]\

@@ -1,7 +1,13 @@
 {
   "name": "@abhijit/react",
   "packageManager": "yarn@4.9.1",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "@abhijit/foundation": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
   }
 }
