@@ -1,8 +1,11 @@
 {
   "name": "@abhijit/foundation",
   "packageManager": "yarn@4.9.1",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "build-tokens": "style-dictionary build --config style-dictionary.config.js",
+    "build-style-dictionary": "style-dictionary build --config style-dictionary.config.js",
     "build": "yarn build-tokens && tsc"
   },
   "devDependencies": {
