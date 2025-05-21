@@ -1,6 +1,10 @@
 {
   "name": "@abhijit/foundation",
   "packageManager": "yarn@4.9.1",
+  "scripts": {
+    "build-tokens": "style-dictionary build --config style-dictionary.config.js",
+    "build": "yarn build-tokens && tsc"
+  },
   "devDependencies": {
     "style-dictionary": "^5.0.0",
     "typescript": "^5.8.3"
