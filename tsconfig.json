@@ -29,6 +29,7 @@
     "**/*.test.*",
     "packages/foundation/lib",
     "packages/foundation/src/tokens/js",
-    "packages/foundation/style-dictionary.config.js"
+    "packages/foundation/style-dictionary.config.js",
+    "packages/foundation/src/tdp.config.js"
   ]
 }
